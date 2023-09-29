@@ -1,5 +1,3 @@
-import axios from "axios";
-axios.defaults.headers.common["x-api-key"] = "live_dOJ39ImEqWH3cF1jUJI4PMe7tAnZXHOkINz33Hfe1NJ2IErVO1ESFhxy6AB6WCAO";
 import { fetchBreeds, fetchCatByBreed } from './cat-api'
 
 const breedSelect = document.querySelector('.breed-select');
